@@ -14,18 +14,18 @@
 ### JavaScript (index.js):
 
 -An event listener is added to the document object, listening for the "keydown" event. This event fires when a key is pressed.
-Inside the event listener:<br>
-The container variable is selected, referring to the <div> element with the class "container."
-The innerText of the container is cleared to prepare it for new content.
-Information about the pressed key and its key code is displayed:
-A new <h1> (header) element is created with text indicating the pressed key.
-A new <p> (paragraph) element is created with text indicating the key code.
-Both the <h1> and <p> elements are appended as child elements to the container to display the information.
-CSS (style.css):
+-Inside the event listener:-
+-The container variable is selected, referring to the <div> element with the class "container."
+-The innerText of the container is cleared to prepare it for new content.
+-Information about the pressed key and its key code is displayed:
+-A new <h1> (header) element is created with text indicating the pressed key.
+-A new <p> (paragraph) element is created with text indicating the key code.<br>
+-Both the <h1> and <p> elements are appended as child elements to the container to display the information.<br>
+-CSS (style.css):
 
-# CSS is used to style the page.
-The * selector applies styles to all elements, setting margins, padding, and the box-sizing property.
-The .container class styles the div element:
-It uses flexbox to center its content both vertically and horizontally.
-It sets a specific font size and weight.
-Additional styles for <p> and <h1> elements are defined.
+### CSS is used to style the page.
+-The * selector applies styles to all elements, setting margins, padding, and the box-sizing property.
+-The .container class styles the div element:
+-It uses flexbox to center its content both vertically and horizontally.
+-It sets a specific font size and weight.
+-Additional styles for <p> and <h1> elements are defined.
