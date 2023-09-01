@@ -1,7 +1,7 @@
 # Key_presser_js
 # Hosted Link:-https://tulasidurga1.github.io/Key_presser_js/
 # Explanation:-
-# Here's a breakdown of the code:
+### Here's a breakdown of the code:
 
 # HTML (index.html):
 
@@ -12,15 +12,14 @@
 -The content of the page is within the <body> element, containing a <div> element with a class "container."
 -A <script> tag references an external JavaScript file "index.js."
 ### JavaScript (index.js):
-
 - An event listener is added to the document object, listening for the "keydown" event. This event fires when a key is pressed.
 - Inside the event listener:-
 - The container variable is selected, referring to the <div> element with the class "container."
 - The innerText of the container is cleared to prepare it for new content.
-# Information about the pressed key and its key code is displayed:
-A new <h1> (header) element is created with text indicating the pressed key.<br>
- A new <p> (paragraph) element is created with text indicating the key code.<br>
- Both the <h1> and <p> elements are appended as child elements to the container to display the information.<br>
+### Information about the pressed key and its key code is displayed:
+-A new <h1> (header) element is created with text indicating the pressed key.<br>
+-A new <p> (paragraph) element is created with text indicating the key code.<br>
+ -Both the <h1> and <p> elements are appended as child elements to the container to display the information.<br>
  CSS (style.css):<br>
 
 ### CSS is used to style the page.
